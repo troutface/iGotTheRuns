@@ -1,0 +1,13 @@
+{
+  "name": "angular-ui-utils",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{6839621ccdab67e7920cb28719f53e85acf7c4fd}}\"",
+    "Last-Modified": "Fri, 21 Nov 2014 22:04:30 GMT",
+    "Content-Length": "29452",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{683",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/angular-ui-utils/0.1.1/angular-ui-utils-0.1.1.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/angular-ui-utils/0.1.1/angular-ui-utils-0.1.1.zip"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "toastr",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{2cd6faa44a2d73d6005695f8a3cf8c00770d355e}}\"",
+    "Last-Modified": "Thu, 29 Jan 2015 12:09:09 GMT",
+    "Content-Length": "16712",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{2cd",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/toastr/toastr/2.1.0/toastr-2.1.0.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/toastr/toastr/2.1.0/toastr-2.1.0.zip"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "angular-ui-router",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{935822b6d4707b93215017a164ff88817b001e4e}}\"",
+    "Last-Modified": "Thu, 29 Jan 2015 12:04:09 GMT",
+    "Content-Length": "110433",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{935",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/angular-ui-router/0.2.13/angular-ui-router-0.2.13.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/angular-ui-router/0.2.13/angular-ui-router-0.2.13.zip"
+}

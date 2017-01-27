@@ -1,0 +1,13 @@
+﻿@model IEnumerable<iGotTheRuns.Data.Topic>
+
+@{
+    ViewBag.Title = "Home Page";
+    ViewBag.InitModule = "homeIndex";  // iGotTheRuns
+}
+@section Scripts {
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/home-index.js"></script>
+}
+
+<div data-ng-view=""></div>
+

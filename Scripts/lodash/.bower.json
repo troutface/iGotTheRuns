@@ -1,0 +1,13 @@
+{
+  "name": "lodash",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{d52b60fcffe5350af4186d8418cc8fdd6512bd3d}}\"",
+    "Last-Modified": "Mon, 06 Jan 2014 23:34:10 GMT",
+    "Content-Length": "54169",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{d52",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/lodash/lodash/2.4.1/lodash-2.4.1.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/lodash/lodash/2.4.1/lodash-2.4.1.zip"
+}

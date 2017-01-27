@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+}
+@section Scripts
+{
+    <script src="/Scripts/bootstrap/js/bootstrap.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<section class="contact">
+    <header>
+        <h3>Phone</h3>
+    </header>
+    <p>
+        <span class="label">Main:</span>
+        <span>425.555.0100</span>
+    </p>
+    <p>
+        <span class="label">After Hours:</span>
+        <span>425.555.0199</span>
+    </p>
+</section>
+
+<section class="contact">
+    <header>
+        <h3>Email</h3>
+    </header>
+    <p>
+        <span class="label">Support:</span>
+        <span><a href="mailto:Support@example.com">Support@example.com</a></span>
+    </p>
+    <p>
+        <span class="label">Marketing:</span>
+        <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
+    </p>
+    <p>
+        <span class="label">General:</span>
+        <span><a href="mailto:General@example.com">General@example.com</a></span>
+    </p>
+</section>
+
+<section class="contact">
+    <header>
+        <h3>Address</h3>
+    </header>
+    <p>
+        One Microsoft Way<br />
+        Redmond, WA 98052-6399
+    </p>
+</section>
+<div class="row">
+    <div class="col-lg-8">
+        <div class="padd" style="padding-bottom: 2em;">
+            <div class="co-form">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="name">Name</label>
+                            <div class="controls">
+                                <input type="text" class="input-sm" id="name" name="name" data-val="true" data-val-required="*" />
+                                <span class="field-validation-valid" data-valmsg-for="name" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="email">Email</label>
+                            <div class="controls">
+                                <input type="text" class="input-sm" id="email" name="email" data-val="true" data-val-required="*" data-val-email="Not Valid" />
+                                <span class="field-validation-valid" data-valmsg-for="email" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="website">Website</label>
+                            <div class="controls">
+                                <input type="text" class="input-sm" id="website" name="website" data-val="true" data-val-required="*" />
+                                <span class="field-validation-valid" data-valmsg-for="website" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="comment">Message</label>
+                            <div class="controls">
+                                <textarea class="input-sm" id="comment" rows="3" name="comment" data-val="true" data-val-required="*"></textarea>
+                                <span class="field-validation-valid" data-valmsg-for="comment" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn">Send</button>
+                            @if (ViewBag.MailSent != null && ViewBag.MailSent) {
+                                <div>Mail Sent!</div>
+                                <div>@ViewBag.Message</div>
+                            }
+                        </div>
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

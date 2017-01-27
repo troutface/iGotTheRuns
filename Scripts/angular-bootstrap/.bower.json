@@ -1,0 +1,13 @@
+{
+  "name": "angular-bootstrap",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{978907b72825b8aace525b92ce28ede7b3fb5da6}}\"",
+    "Last-Modified": "Thu, 17 Jul 2014 21:25:38 GMT",
+    "Content-Length": "49596",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{978",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/ui-bootstrap/0.11.0/ui-bootstrap-0.11.0.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angularui/ui-bootstrap/0.11.0/ui-bootstrap-0.11.0.zip"
+}

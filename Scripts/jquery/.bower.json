@@ -1,0 +1,13 @@
+{
+  "name": "jquery",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{76c05c0abee16f594c75fddb272106961868b547}}\"",
+    "Last-Modified": "Wed, 09 Jul 2014 13:47:08 GMT",
+    "Content-Length": "104547",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{76c",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/jquery/jquery/2.1.1/jquery-2.1.1.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/jquery/jquery/2.1.1/jquery-2.1.1.zip"
+}

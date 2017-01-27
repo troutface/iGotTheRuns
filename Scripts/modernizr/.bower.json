@@ -1,0 +1,14 @@
+{
+  "name": "modernizr",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{f3a1aab8bb11b3267cfe12be89bdc5ab885936c9}}\"",
+    "Last-Modified": "Mon, 13 Oct 2014 15:29:22 GMT",
+    "Content-Length": "14358",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:{SHA1{f3a",
+  "main": "index.js",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/opensource/content/modernizr/modernizr/2.8.3/modernizr-2.8.3.js",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/opensource/content/modernizr/modernizr/2.8.3/modernizr-2.8.3.js"
+}

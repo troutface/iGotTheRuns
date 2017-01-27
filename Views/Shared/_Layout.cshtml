@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="@ViewBag.InitModule">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - iGotTheRuns :(</title>
+
+
+    @RenderSection("Header", false)
+
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div id="title">
+                <h1>iGotTheRuns</h1>
+            </div>
+            <div id="search-bar">
+                @*@Html.Partial("_SearchBarPartial")*@
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li data-tooltip="Return Home">@Html.ActionLink("Message Board", "Index", "Home")</li>
+                    <li data-tooltip="Index of code terms in my toolbox code">@Html.ActionLink("Index", "KeywordIndex", "Home")</li>
+                    <li data-tooltip="Contact Us">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li data-tooltip="See the Runs">@Html.ActionLink("Running Data", "Runs", "Home")</li>
+                </ul>
+            </nav>
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/angular")
+            @Scripts.Render("~/bundles/angular-route")
+            @Scripts.Render("~/bundles/modernizr")
+            @*@Scripts.Render("~/bundles/bootstrap")*@
+
+            @RenderSection("scripts", required: false)
+            @Styles.Render("~/Content/css")
+        </header>
+        <section id="main">
+            @RenderBody()
+        </section>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - DotnetToolbox Creations</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+</body>
+</html>

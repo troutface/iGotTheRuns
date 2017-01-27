@@ -1,0 +1,13 @@
+{
+  "name": "angular-animate",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{6cb55ad8b3d8923dd073dd3e015aa596141306e9}}\"",
+    "Last-Modified": "Thu, 29 Jan 2015 12:28:41 GMT",
+    "Content-Length": "40907",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{6cb",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content//angular/angular-animate/1.3.11/angular-animate-1.3.11.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content//angular/angular-animate/1.3.11/angular-animate-1.3.11.zip"
+}

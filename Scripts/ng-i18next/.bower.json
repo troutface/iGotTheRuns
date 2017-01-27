@@ -1,0 +1,13 @@
+{
+  "name": "ng-i18next",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{eeabcf4c6ca92d2c147c7cd59a0fd5996dcf1704}}\"",
+    "Last-Modified": "Thu, 29 Jan 2015 12:08:31 GMT",
+    "Content-Length": "11764",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{eea",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/ng-i18next/0.3.6/ng-i18next-0.3.6.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/ng-i18next/0.3.6/ng-i18next-0.3.6.zip"
+}

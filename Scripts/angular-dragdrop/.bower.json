@@ -1,0 +1,13 @@
+{
+  "name": "angular-dragdrop",
+  "_cacheHeaders": {
+    "ETag": "\"{SHA1{494a82f5bd26caa39c2278c7dd4af2cb0f7c3513}}\"",
+    "Last-Modified": "Thu, 29 Jan 2015 12:30:52 GMT",
+    "Content-Length": "10321",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:{SHA1{494",
+  "_source": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angular-dragdrop/1.0.11/angular-dragdrop-1.0.11.zip",
+  "_target": "*",
+  "_originalSource": "http://repo.wal-mart.com/service/local/repositories/thirdparty/content/angular/angular-dragdrop/1.0.11/angular-dragdrop-1.0.11.zip"
+}
